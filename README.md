@@ -14,20 +14,12 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter, view our
 [online documentation](https://flutter.dev/docs), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
-aaa
-![Main Page](./assets/images/main_page.jpeg | width=100)
-bbb
-![Main Page](/assets/images/main_page.jpeg | width=100)
-ccc
-![Main Page](/assets/images/main_page.jpeg)
-ddd
-![Main Page](./assets/images/main_page.jpeg)
-eee
-![Main Page](./assets/images/main_page.jpeg width=100)
-fff
-![](https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png | width=100)
-gggg
-<img src="./assets/images/main_page.jpeg" width="100" title="hover text">
+
+
 # Flutter Samples
 
 You can follow me on twitter [@diegoveloper](https://www.twitter.com/diegoveloper)
+
+| Main Page | Floating Appbar Page |
+|------|-------|
+| <img src="./assets/images/main_page.jpeg" width="250" title="Main Page">  | <img src="./assets/images/floating_app_bar.jpeg" width="250" title="App Bar">   |
