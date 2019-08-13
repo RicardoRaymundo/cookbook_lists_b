@@ -9,15 +9,15 @@ class _ScrollMovementState extends State<ScrollMovement> {
   ScrollController _controller;
   final itemSize = 100.0;
 
-  _moveUp() {
-    //_controller.jumpTo(_controller.offset - itemSize);
-    _controller.animateTo(_controller.offset - itemSize,
+  _onMoveDown() {
+    //_controller.jumpTo(_controller.offset + itemSize);
+    _controller.animateTo(_controller.offset + itemSize,
         curve: Curves.linear, duration: Duration(milliseconds: 500));
   }
 
-  _moveDown() {
-    //_controller.jumpTo(_controller.offset + itemSize);
-    _controller.animateTo(_controller.offset + itemSize,
+  _onMoveUp() {
+    //_controller.jumpTo(_controller.offset - itemSize);
+    _controller.animateTo(_controller.offset - itemSize,
         curve: Curves.linear, duration: Duration(milliseconds: 500));
   }
 
@@ -50,11 +50,11 @@ class _ScrollMovementState extends State<ScrollMovement> {
                 children: <Widget>[
                   RaisedButton(
                     child: Text("up"),
-                    onPressed: _moveUp,
+                    onPressed: _onMoveUp,
                   ),
                   RaisedButton(
                     child: Text("down"),
-                    onPressed: _moveDown,
+                    onPressed: _onMoveDown,
                   )
                 ],
               ),
