@@ -26,7 +26,8 @@ eee
 ![Main Page](./assets/images/main_page.jpeg width=100)
 fff
 ![](https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png | width=100)
-
+gggg
+<img src="./assets/images/main_page.jpeg" width="100" title="hover text">
 # Flutter Samples
 
 You can follow me on twitter [@diegoveloper](https://www.twitter.com/diegoveloper)
